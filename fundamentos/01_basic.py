@@ -1,3 +1,5 @@
+import math
+
 # Hello world
 print("Hello world!\n\n")
 
@@ -40,3 +42,9 @@ print("[1, 2, 3] =>", type([1, 2, 3]))
 print("{'first_name': 'Carlos'} =>", type({'first_name': 'Carlos'}))
 print("{9.8, 3.14, 6.24} =>", type({9.8, 3.14, 6.24}))
 print("(9.8, 3.14, 6.24) =>", type((9.8, 3.14, 6.24)))
+
+
+""" Hallar la distancia euclidiana """
+
+# Distancia euclidiana entre (2, 3) y (10, 8)
+print("resultado => ", math.sqrt((10 - 2) ** 2 + (8 - 3) ** 2))
