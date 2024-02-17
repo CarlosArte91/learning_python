@@ -49,15 +49,42 @@ num_complex = 3j
 # print("\nEl área del circulo es", circle_area)
 
 
-# Comparación de variables
-name_a = 'python'
-name_b = 'dragon'
+# # Comparación de variables
+# name_a = 'python'
+# name_b = 'dragon'
 
-print('python > dragon', len(name_a) > len(name_b))
+# print('python > dragon', len(name_a) > len(name_b))
 
-print('\nOn in python y dragon =>', 'on' in name_a and 'on' in name_b)
+# print('\nOn in python y dragon =>', 'on' in name_a and 'on' in name_b)
 
-frase = 'Espero que este curso no esté lleno de jerga'
-palabra = 'jerga'
+# sentence = 'I hope this course is not full of jargon'
+# word = 'jargon'
 
-print('\nPalabra en Frase =>', palabra in frase)
+# print('\nPalabra en Frase =>', word in sentence)
+
+# print('\nNo on en python y dragon =>', not 'on' in name_a and not 'on' in name_b)
+
+# len_text = len('python')
+# len_text_float = float(len_text)
+# len_text_str = str(len_text)
+
+# print('\nValidación matemática =>', int(7 / 3) == int(2.7))
+
+# print('\nValidación de tipos =>', type('10') == type(10))
+
+# print('\nValidación de número =>', int(float('9.8')) == 10)
+
+# hours = float(input('Ingrese sus horas trabajadas: '))
+# rate_per_hour = float(input('Cual es su tarifa por hora: '))
+
+# total_to_pay = hours * rate_per_hour
+
+# print('\nSe le debe pagar $', total_to_pay)
+
+# years = int(input('\nIngresa el número de años: '))
+
+# seconds = 3600 * 24 * 365 * years
+
+# print('\nEl número de segundos transcurrido es: ', seconds)
+
+print(' 1 1 1 1 1\n', '2 1 2 4 8\n', '3 1 3 9 27\n', '4 1 4 16 64\n', '5 1 5 25 125')
